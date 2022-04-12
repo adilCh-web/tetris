@@ -1,0 +1,92 @@
+
+  #gameScreen .grid-container {
+
+    margin:auto auto;
+    display:grid;
+    grid-auto-flow: column;
+     
+    }
+#score 
+{
+    margin:10px 0px 0px 20px;
+    font-size: 10px;
+    
+}
+#gameScreen
+    {
+        background-color: black;
+        margin:   20px auto 0px  auto;
+        width:180px;
+
+
+    }
+
+    #container
+    {
+        background-color: grey;
+        width:200px;
+        margin:auto auto;
+        border-radius: 45px;
+        padding:5px;
+        border:2px solid black
+   
+    }
+
+    .divImages
+    {
+        height:15px;
+        width:15px;
+        background-color: "black"
+    }
+
+    #gOver
+    {
+        position:absolute;
+        left:95px;/*(290-100/2)  ;*/
+        top:  115px; /*(15*22)/2 - 50 ;*/
+        display:none
+    }
+
+    #buttons button
+    {
+        width:40px;
+        background-color: black;
+        color:white;
+        margin:auto auto;
+        border-radius: 90px;
+        font-size: 10px;
+        border:1px solid white
+    }
+    #buttons button:hover
+    {
+        background-color: brown;
+    }
+    #buttons
+    {
+        width:180px;
+        margin:20px auto 20px auto;
+        display:flex;
+        flex-direction: column;
+    }
+
+
+    .buttonDiv
+    {
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .flex
+    {
+        display:flex;
+        align-content: center;
+        width:100%
+    }
+
+    #rotate
+    {
+        border-radius: 50px;
+        width:70px;
+        height:70px
+    }
